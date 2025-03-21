@@ -1,0 +1,103 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2D373F; /* Background color */
+    color: #fff; /* Text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #A695EA; /* Header color */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+a {
+    color: #A695EA; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #3A4A58; /* Section background color */
+}
+
+.quick-links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.feature-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    margin: 10px 0;
+}
+
+/* Button Styling */
+.next-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Button color */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.next-button:hover {
+    background-color: #45a049; /* Button hover color */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2D373F; /* Footer background */
+    color: #A695EA; /* Footer text color */
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .next-button {
+        width: 100%;
+        text-align: center;
+    }
+}
